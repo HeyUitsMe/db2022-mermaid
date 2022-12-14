@@ -5,8 +5,8 @@
 ```mermaid
 erDiagram
         
-Student ||--}| StudentSchool : enrolls
-School ||--}| StudentSchool : accepts
+Student ||--|{ StudentSchool : enrolls
+School ||--|{ StudentSchool : accepts
 
 
     StudentSchool {
@@ -16,14 +16,14 @@ School ||--}| StudentSchool : accepts
     
     Student {
         int Id
-        string FirstName
-        string LastName
+        String FirstName
+        String LastName
     }
     
     School {
         int SchoolId
-        string Name
-        string City
+        String Name
+        String City
     }
     
 ```
