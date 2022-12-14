@@ -10,20 +10,20 @@ School ||--|{ StudentSchool : accepts
 
 
     StudentSchool {
-        int Id
-        int SchoolId
+        int Id PRI
+        int SchoolId PRI
     }
     
     Student {
-        int Id
-        varchar FirstName
-        varchar LastName
+        int Id PRI
+        varchar FirstName " "
+        varchar LastName " "
     }
     
     School {
-        int SchoolId
-        varchar Name
-        varchar City
+        int SchoolId PRI
+        varchar Name " "
+        varchar City " "
     }
     
 ```
