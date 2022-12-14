@@ -6,7 +6,8 @@
 erDiagram
         
 Student ||--|{ StudentSchool : enrolls
-School ||--|{ StudentSchool : accepts
+School o|--|{ StudentSchool : accepts
+
 
     StudentSchool {
         int Id
