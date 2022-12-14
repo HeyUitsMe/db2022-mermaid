@@ -8,9 +8,8 @@ erDiagram
 Student ||--|{ StudentSchool : enrolls
 School ||--|{ StudentSchool : accepts
 
-
     StudentSchool {
-        int Id PRI
+        int Id PK
         int SchoolId PK
     }
     
@@ -24,6 +23,5 @@ School ||--|{ StudentSchool : accepts
         int SchoolId PK
         string Name
         string City
-    }
-    
+    }    
 ```
