@@ -5,7 +5,7 @@
 ```mermaid
 erDiagram
         
-Student ||--|{ StudentSchool
+Student ||--|{ StudentSchool :
 
     StudentSchool {
         int Id
