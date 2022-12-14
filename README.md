@@ -16,14 +16,14 @@ School ||--|{ StudentSchool : accepts
     
     Student {
         int Id
-        String FirstName
-        String LastName
+        varchar FirstName
+        varchar LastName
     }
     
     School {
         int SchoolId
-        String Name
-        String City
+        varchar Name
+        varchar City
     }
     
 ```
