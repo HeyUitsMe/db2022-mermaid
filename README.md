@@ -16,14 +16,14 @@ School ||--|{ StudentSchool : accepts
     
     Student {
         int Id PRI
-        varchar FirstName " "
-        varchar LastName " "
+        varchar FirstName
+        varchar LastName
     }
     
     School {
         int SchoolId PRI
-        varchar Name " "
-        varchar City " "
+        varchar Name
+        varchar City
     }
     
 ```
