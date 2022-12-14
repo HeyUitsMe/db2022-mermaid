@@ -5,7 +5,7 @@
 ```mermaid
 erDiagram
         
-Student ||--|{ StudentSchool : enrolls
+Student ||--}| StudentSchool : enrolls
 School ||--}| StudentSchool : accepts
 
 
